@@ -1,0 +1,22 @@
+.timer {
+  display: inline-block;
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+  color: #fff;
+  background-color: rgb(2,0,36);
+  background: linear-gradient(180deg, 
+                #020024 0%,
+                #6a0979 35%,
+                #00d4ff 100%);
+  margin: 0;
+  padding: 0 15px;
+  font-size: 40px;
+  z-index: 100;
+}
+
+.description {
+  padding: 0;
+  margin: 0;
+  color: fff;
+}
