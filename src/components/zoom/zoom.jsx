@@ -36,7 +36,7 @@ const Zoom = () => {
 
     return () => setShowTimer(false) 
 
-  }, [meetConfig]);
+  }, []);
 
   return (
     <div className={styles.zoom}>

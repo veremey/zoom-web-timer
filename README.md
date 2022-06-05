@@ -1,5 +1,7 @@
 # Zoom WEB custom timer 
 
+### `npm i`
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -16,4 +18,4 @@ Before correct watching this progect sometimes you may to register Chrome Origin
 
 Zoom documentation - [https://marketplace.zoom.us/docs/sdk/native-sdks/web/build/](https://marketplace.zoom.us/docs/sdk/native-sdks/web/build/)
 
-Change API keys you can in `src/components/zoom/constatnts/index.js`
+You can change ZOOM API keys in `.env`

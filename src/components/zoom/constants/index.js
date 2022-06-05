@@ -1,7 +1,7 @@
 export const zoomConfig = {
-  apiKey: 'dxYfVZ5GSkaxOQ6r9_k7Lw',
-  apiSecret: 'VJuHiGPUEpgsBPE7BrkAouHpQxSKcfytZFqL',
-  userName: "Example",
-  userEmail: "qzmtest@gmail.com", 
-  role: 0,
+  apiKey: process.env.REACT_APP_ZOOM_API_KEY,
+  apiSecret: process.env.REACT_APP_ZOOM_API_SECRET_KEY,
+  userName: process.env.REACT_APP_ZOOM_USER_NAME,
+  userEmail: process.env.REACT_APP_ZOOM_EMAIL,
+  role: process.env.REACT_APP_ZOOM_ROLE,
 };
